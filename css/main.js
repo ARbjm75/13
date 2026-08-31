@@ -111,10 +111,10 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    msgs.innerHTML = "GoldHEN v2.4b18.10 Loaded ...";
+    msgs.innerHTML = "BERHASIL Ty FOR AR Playstation";
     logger.info("===END===");
   } catch (e) {
-    msgs.innerHTML = "Failed to Load! Restart Your Console ...";
-    msgs.style.color = "yellow";
+    msgs.innerHTML = "AKTIFASI HEN GAGAL . RESTAR PS4 NYA";
+    msgs.style.color = "red";
   }
 }
